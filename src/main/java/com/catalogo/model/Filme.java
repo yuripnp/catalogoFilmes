@@ -45,4 +45,15 @@ public class Filme {
         }
         this.nota = nota;
     }
+
+    public void exibirFichaTecnica() {
+        System.out.println("========== FICHA TÉCNICA ==========");
+        System.out.println("ID:               " + getId());
+        System.out.println("Título:           " + getTitulo());
+        System.out.println("Diretor:          " + getDiretor());
+        System.out.println("Ano de lançamento:" + getAnoLancamento());
+        System.out.println("Gênero:           " + getGenero());
+        System.out.println("Nota:             " + getNota() + " / 5.0");
+        System.out.println("===================================");
+    }
 }
